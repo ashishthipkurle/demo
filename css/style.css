@@ -1,0 +1,765 @@
+@font-face{
+    font-family:"RobotoSlab-Light.ttf";
+    src: url(../font/Roboto_Slab/static/RobotoSlab-Light.ttf);
+}
+body p{
+    font-family:"RobotoSlab-Light.ttf" ;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* marque */
+.marq{
+    background-color:rgb(254, 230, 151);
+    font-family:"RobotoSlab-Light.ttf" ;
+
+}
+
+/* navbar */
+.nv li{
+    padding-left: 30px;
+    font-weight: bolder;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.navbar-nav .nav-item .nav-link{
+    color: white;
+    font-family:"RobotoSlab-Light.ttf" ;
+
+}
+.navbar-nav .nav-item .nav-link:hover{
+color: #ffc107;
+}
+header{
+    background-color:rgb(44, 44, 44);
+    top: 0;
+    z-index: 1000;
+    position: sticky;
+}
+.dropdown-menu .dropdown-item{
+    font-family:"RobotoSlab-Light.ttf" ;
+}
+
+/* slider */
+.main-slider {
+    position: relative;
+}
+.slider-img {
+    position: relative;
+}
+.slider-img img {
+    width: 100%;
+    height: 630px;
+}
+.slider-text {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    right: 0;
+    color: #fff;
+    width: 100%;
+    margin: 0 auto;
+}
+#slide {
+    text-align: center;
+    padding: 25px;
+}
+.textside {
+    margin-left: 0;
+    margin-right: 0;
+    display: initial;
+}
+h6 {
+    /* -webkit-text-stroke: 0.5px #000; */
+    color: #fff;
+    font-weight: bold;
+    font-size: 67px;
+    line-height: 70px;
+     font-family: "Open Sans",Sans-serif;
+    letter-spacing: 1px;
+}
+.content h1 {
+    z-index: 1;
+   font-family:cursive;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    white-space: unset;
+    line-height: 50px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+.more_btn {
+    background:rgb(248, 233, 183);
+    color:black;
+    font-size: 19px;
+    letter-spacing: 0.5px;
+    padding: 13px 30px;
+    display: inline-block;
+    margin-top: 180px;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 1px #0a0a0a9c;
+    transition: 0.5s;
+    animation-delay: 1s;
+    animation-duration: 1s;
+     /* font-family: "Open Sans",Sans-serif; */
+     font-weight: bold;
+}
+.bx-wrapper {
+    border: 0;
+    margin-bottom: 0;
+    box-shadow: none;
+    background: none;
+}
+.slider-img:before {
+    position: absolute;
+    content: '';
+    background:#303628b8;
+}
+
+.slider-img:before {
+    /* background: #002147 none repeat scroll 0 0; */
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+/* slider text */
+h6{
+    color:white;
+    font-size: 47px;
+    margin-top: -170px;
+    text-shadow: 4px 4px 5px rgb(63, 61, 61);
+    margin-top: -20px;
+} 
+
+/* home about section */
+.row1{
+    margin: 80px 0px;
+}
+
+.colinfo{
+    margin-left: 20px;
+    text-align: justify;
+}
+.colinfo p{
+    font-family: "RobotoSlab-Light.ttf";
+    font-size: 16px;
+}
+
+.col img{
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+/* category section */
+.row3{
+    padding-top: 70px ;
+}
+
+.cd{
+    box-shadow: 5px 5px 5px rgb(193, 192, 192);
+    border-radius: 20px;
+    text-align: center;
+    border: none;
+}
+.cd img{
+    border-radius: 20px 20px 0 0;
+    height: 200px;
+    width: 100%;
+}
+.category{
+    background-color: rgb(255, 252, 246);
+    height:1000px;
+    
+}
+.cardt{
+    font-size: 20px;
+    font-weight:bold;
+    color:black;
+}
+
+
+/* hero section */
+.h {
+    background-image: url(../images/hero-slide.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    margin-top: 0px;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.h::before {
+    position: absolute;
+    content: "";
+    inset: 0;
+    background-color: rgba(37, 38, 38, 0.4);
+}
+.hcon{
+    padding-top: 70px;
+    z-index: 5;
+    position: relative;
+}
+.hcon p{
+    font-family:"RobotoSlab-Light.ttf";
+}
+.hcon b {
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 20px;
+    color:rgb(254, 223, 121);
+    font-family: serif;
+}
+
+.hcon blockquote {
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 90px;
+    color:white;
+}
+.hcon button{
+    width: 150px;
+    height: 35px;
+    background-color:rgb(250, 228, 157);
+border: none;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 2px 5px;
+    font-weight: bold;
+    font-family:"RobotoSlab-Light.ttf" ;
+
+}
+
+/* footer and mobile adjustments */
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 20px; /* Add margin to prevent overlap */
+    }
+    .lion_footer {
+        padding: 20px; /* Add padding to the footer */
+    }
+}
+@font-face{
+    font-family:"RobotoSlab-Light.ttf" ;
+
+    src: url(../Roboto_Slab/static/RobotoSlab-Light.ttf);
+    
+}
+@font-face{
+    font-family:"RobotoSlab-Light.ttf" ;
+
+    src: url(../Roboto_Slab/static/RobotoSlab-Light.ttf);
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.lion_footer{
+    background-color: black;
+    color:white;
+}
+.lion_logo{
+    margin-right: 20px;
+    
+}
+.footer_links{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.footer_links p{
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: Roboto_Slab/static/RobotoSlab-Light;
+}
+.footersec2{
+    background-color: rgb(185, 158, 4);
+    height: 25px;
+}
+.copy{
+    border-top: 2px solid rgb(185, 158, 4);
+    padding:20px 0px;
+    font-size: 20px;
+}
+.footer_links h2{
+    padding-bottom: 20px;
+}
+.footer_links ul li{
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-family:"RobotoSlab-Light.ttf" ;
+}
+.footer_links ul li a{
+    color: white;
+    text-decoration: none;
+    font-family:"RobotoSlab-Light.ttf" ;
+}
+.footer_links ul li a:hover{
+    text-decoration: underline blue;
+}
+
+/* footer about us page */
+.fabout{
+    margin: 60px 0px;
+    font-family:serif;
+}
+.fabout1{
+    margin-bottom: 60px;
+}
+.img img{
+    border-radius:20%;
+    box-shadow: 3px 3px 3px rgb(148, 147, 147);
+}
+.img1 img{
+    box-shadow: 3px 3px 3px rgb(31, 31, 31);
+}
+.fabout2{
+    margin-bottom: 60px;
+}
+
+/* about us award page */
+.ab{
+    margin: 100px 0px;
+  }
+  .abcol p{
+    line-height: 30px;
+    font-family:"RobotoSlab-Light.ttf";
+    font-size: 16px;
+}
+
+/* sercices page */
+/* sercices */
+@font-face{
+    font-family:"RobotoSlab-Light";
+    src: url(../fonts/Roboto_Slab/RobotoSlab-Light.ttf);
+ }
+ 
+ .wedcol{
+    background-color: white;
+    box-shadow: 5px 5px 5px rgba(188, 187, 187, 0.9);
+    font-size: 14px;
+    
+    border-radius: 30px;
+  }
+  .wedcol img{
+     border-radius: 30px; 
+  }
+  .loins h2{
+     color: rgb(230, 179, 28);
+     font-weight: bold;
+     text-shadow: 0.5px 0.5px rgb(230, 225, 225);
+     
+     font-family:"RobotoSlab-Light";
+     font-size: 30px;
+  }
+  span{
+     font-weight: 600;
+  }
+  .row2{
+     margin-top: 40px;
+  }
+  .colinfo2{
+     margin-top: -20px;
+  }
+  .con{
+     background-color: white;
+   
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+  }
+  ul li{
+    font-family:"RobotoSlab-Light" ;
+    text-align: justify;
+  }
+  .rowabout2{
+     padding-top: 60px;
+     
+  }
+  .rowabout3{
+    padding-top: 60px;
+     
+ 
+     padding-top: 20px;
+  }
+  
+  
+  
+  .col img{
+     border-top-left-radius: 30px;
+     border-bottom-right-radius: 30px;
+     box-shadow: 3px 3px 3px rgb(80, 79, 79);
+  }
+  ul{
+     font-size: 16px;
+  }
+  .seccard{
+    background-color: rgb(253, 249, 249);
+  }
+  .service{
+    padding: 40px 0px;
+  }
+
+  /* about our story page */
+  .col img{
+    box-shadow: 10px 10px 5px grey;
+}
+.row2{
+    padding: 40px 0px 70px 0px;
+}
+.row2 p{
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+/* vision & Mission */
+.vision{
+    text-align: justify;
+    margin-top: 50px;
+}
+.bg2{
+    background: linear-gradient(90deg, rgba(26, 2, 8, 0.959) 0%, rgba(150, 147, 147, 0.986) 100%);
+    color: white;
+}
+.bg3{
+    background: linear-gradient(90deg, rgba(126, 124, 124, 0.959) 0%, rgba(29, 27, 27, 0.986) 100%);
+    color: white;
+}
+.vision h5{
+    margin-left: 150px;
+    font-weight: bold;
+}
+.vision p{
+    font-size: 17px;
+    font-family: sans-serif;
+}
+/* slider */
+
+.slide{
+    padding: 30px;
+    
+}
+.slide img{
+    border: 5px solid gold;
+
+}
+.impo p{
+    margin-top: 30px;
+    margin-left: 46px;
+}
+/* slider end */
+
+/* president */
+.pimg{
+    margin-left: 230px;
+    margin-top: 30px;
+    
+}
+.pimg img{
+    border-radius: 10px;
+}
+.p2{
+   margin-top: 40px;
+   font-family: serif;
+   text-align: justify;
+   line-height: 30px;
+}
+.sign{
+    margin-left: 900px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+/* board director */
+.board{
+    padding: 40px 0px;
+}
+.card{
+    margin:0px 40px;
+    box-shadow: 5px 5px  rgb(226, 226, 226);
+    
+}
+.card h5{
+    font-size: 30px;
+}
+
+.card img{
+    padding: 5px;
+
+    
+}
+.card img:hover{
+    transform: scale(0.9);
+}
+.card1 img:hover{
+    transform: scale(0.9);
+}
+.card1{
+    margin: 0px 140px;
+}
+
+/* donate page */
+table{
+    text-align: center;
+   background-color: rgb(255, 242, 0);background: linear-gradient(90deg, rgba(182,121,141,0) 0%, rgba(255,201,0,0.4789565484396884) 100%);
+    margin-top: 80px;
+    margin-bottom: 80px;
+   
+}
+tr td{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* contact page */
+.contactsec {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family:"RobotoSlab-Light.ttf" ;
+}
+@media (min-width: 1024px) {
+    .contactsec {
+        flex-direction: row;
+    }
+}
+.left-section, .right-section {
+    flex: 1;
+    position: relative;
+}
+.left-section img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.75);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+.address-box {
+    background-color: white;
+    padding: 2rem;
+    width: 400px;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.address-box i {
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 1rem;
+}
+.address-box h2 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color:rgb(243, 220, 13);
+    margin-bottom: 0.5rem;
+}
+.address-box p {
+    color: #323336;
+}
+.right-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+.form-container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 32rem;
+}
+.form-container h3 {
+    color: black;
+    font-size: 0.875rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.form-container h1 {
+    font-size: 1.875rem;
+    font-weight: bold;
+    color: #2d3748;
+    margin-bottom: 1rem;
+}
+.form-container form {
+    display: grid;
+    gap: 1rem;
+}
+.form-container input, .form-container textarea, .form-container select{
+    border: 1px solid #e2e8f0;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    width: 100%;
+}
+.form-container button {
+    background-color:rgb(250, 228, 157);
+    color:black;
+    font-weight: bold;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+        ::-webkit-input-placeholder {
+            color: #474544;
+        }
+
+        :-moz-placeholder {
+            color: #474544;
+            opacity: 1;
+        }
+
+        ::-moz-placeholder {
+            color: #474544;
+            opacity: 1;
+        }
+
+        :-ms-input-placeholder {
+            color: #474544;
+        }
+
+        #form_button {
+            background: none;
+            border: solid 2px #474544;
+            color: #474544;
+            cursor: pointer;
+            display: inline-block;
+            font-family: 'Helvetica', Arial, sans-serif;
+            font-size: 0.875em;
+            font-weight: bold;
+            outline: none;
+            padding: 10px 5px;
+            text-transform: uppercase;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            -ms-transition: all 0.3s;
+            -o-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+
+        #form_button:hover {
+            background: #474544;
+            color: #F2F3EB;
+        }
+
+        @media screen and (max-width: 500px) {
+            #container1 {
+                margin: 20px auto;
+                width: 75%;
+            }
+        } 
+
+         @media screen and (max-width: 480px) {
+            h1 {
+                font-size: 26px;
+            } 
+
+             .underline {
+                width: 0px;
+            } 
+
+             #form_button {
+                padding: 15px 15px;
+            }
+        } 
+
+         @media screen and (max-width: 420px) {
+            h1 {
+                font-size: 12px;
+            }
+
+            .icon {
+                height: 5px;
+                width: 35px;
+            } 
+
+             .underline {
+                width: 0px;
+            } 
+
+             input[type='text'],
+            [type='email'],
+            select,
+            textarea {
+                font-size: 0.675em;
+            }
+        } 
+        /* Location */
+        /* Container */
+         .container2{
+            padding: 15px;
+        }
+        .crd{
+            padding: 20px;
+            margin-left: 45px;
+            max-width: 85%;
+            background-color: #212529;
+            color: #F2F3EB;
+            margin-bottom: 10px;
+        }
+        .crd h1{
+            font-size: 26px;
+            letter-spacing: 0px;
+            color: #ffc107;
+        } 
+        /* Icon's  */
+         .crd i{
+            font-size: 20px;
+        } 
+
+        /* banner section all pages */
+        .banner{
+            background-image: url(../images/slider11.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 60px 0px;
+            color:white;
+            position: relative;
+            z-index: 5;
+        }
+        .banner h1{
+            font-weight: bold;
+            font-size: 50px;
+            text-shadow: 2px 2px 2px rgb(106, 1, 19);
+            font-family: serif;
+            z-index: 5;
+            position: relative;
+        }
+        .banner::before{
+            content: "";
+            background-color: rgba(0,0,0,0.544);
+            position: absolute;
+            inset: 0;
+        }
